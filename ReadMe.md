@@ -4,7 +4,9 @@ Having Semafore running seems quite complicated; hence I'm explaing what I have 
 The first step is having the required files downloaded and untared:
 
    1- [Semafore V.2.1],(http://semafor-semantic-parser.googlecode.com/files/SEMAFOR-2.1.tgz)
+   
    2- [stacked parser](http://semafor-semantic-parser.googlecode.com/files/stackedParserServer.tgz)
+   
    3- [models](http://www.ark.cs.cmu.edu/SEMAFOR/SEMAFOR-2.1-models.tgz)
    
 Once all these are pasted into 1 folder, there is one [file],(https://github.com/kimiaprojects/Semaphore/blob/master/semafor-semantic-parser/release/config) to be modified.
