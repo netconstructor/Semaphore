@@ -16,6 +16,9 @@ For compiling the code , we use ./release/cleanAndCompile.sh .
 For starting the MNST server, ./relase/startMSTServer.sh .
 For running an example ,  ./release/fnParserDriver.sh sample.txt output.txt .
 
-- it requires 8gb memory and gives me Heapsize error as I'm running linux on 3gb ; so I failed at the startMSTserver. 
-- 
-- I also tried to modify the javacode file to lessen the min heapsize for the code but it didn't work ! here is the file to manipulate :
+> it requires 8gb memory and gives me Heapsize error as I'm running linux on 3gb ; so I failed at the startMSTserver. 
+ 
+> I also tried to modify the javacode file to lessen the min heapsize for the code but it didn't work ! here is the file
+to manipulate [startMSTserver](https://github.com/kimiaprojects/Semaphore/blob/master/semafor-semantic-parser/release/startMSTServer.sh~)
+
+   this line :${JAVA_HOME_BIN}/java -classpath ".:./lib/trove.jar:./lib/mallet.jar:./lib/mallet-deps.jar" -Xms8g -Xmx8g \
